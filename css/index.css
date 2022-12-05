@@ -1,0 +1,49 @@
+:root{
+    --primary-color:white;
+    --secondary-color: #ff0045;
+    --tertiary-color: black;
+}
+
+::selection{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/TiendaVirtual/images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Tarjetas */
+.cardcontainer{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0 40px;
+}
+
+
+.cards{
+    -webkit-box-shadow: -1px 0px 27px -14px rgba(128,123,128,1);
+    -moz-box-shadow: -1px 0px 27px -14px rgba(128,123,128,1);
+    box-shadow: -1px 0px 27px -14px rgba(128,123,128,1);
+    width: 250px;
+    border: 1px solid rgb(179, 177, 177);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+}
+
+.cards h5{
+    color: var(--secondary-color);
+}
+
+/*Slider de imagenes*/
+.carousel{
+    margin: 100px 20px;
+}
+
