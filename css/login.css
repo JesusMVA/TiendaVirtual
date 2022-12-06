@@ -9,11 +9,6 @@
     color: var(--primary-color);
 }
 
-body{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/TiendaVirtual/images/background.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 h4{
     color: var(--secondary-color);
@@ -25,6 +20,8 @@ h4{
     margin-top: 150px;
     display: flex;
     justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 form{
@@ -58,7 +55,18 @@ button[type="submit"]{
     border-radius: 15px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    margin-top: auto;
 }
+
+a.recuperar{
+    font-size: .7rem;
+    color: var(--secondary-color);
+}
+
+a.recuperar:hover{
+    color: #ff2d65;
+}
+
 
 button[type="submit"]:hover{
     border: 1px solid var(--secondary-color);

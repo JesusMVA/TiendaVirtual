@@ -13,10 +13,5 @@
         <p>jmshop@gmail.com</p>
         <p>3122192797</p>
     </span>
-    <span>
-        <h5>Autor</h5>
-        <p>Jesus Velasquez </p>
-        <p>jesusvelasquez@gmail.com</p></p>
-    </span>
 </footer>
 </html>

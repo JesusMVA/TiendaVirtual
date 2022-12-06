@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/TiendaVirtual/css/login.css">
+    <link rel="stylesheet" href="/TiendaVirtual/css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -14,7 +15,16 @@
         <center><h4>Inicio de sesion</h4></center>
         <input type="email" name="" placeholder="correo@gmail.com">
         <input type="password" name="" placeholder="contraseña">
+        <a class="recuperar" href="#">¿Olvidaste tu contraseña?</a>
         <button type="submit">Acceder</button>
+    </form>
+    <form action="" method="post">
+        <center><h4>Registro</h4></center>
+        <input type="text" name="" placeholder="Nombre">
+        <input type="text" name="" placeholder="Apellido">
+        <input type="email" name="" placeholder="correo@gmail.com">
+        <input type="password" name="" placeholder="contraseña">
+        <button type="submit">Registrarse</button>
     </form>
 </div>
 <?php include "./template/footer.php" ?>

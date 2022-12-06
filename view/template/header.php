@@ -28,8 +28,7 @@
 		<li class="nav-item"><a class="nav-link text-dark"  href="#">Mi Perfil</a></li>
 	</ul>
 	<ul class="navbar-nav">
-		<li class="nav-item"><a class="nav-link reg"  href="/TiendaVirtual/view/login.php">Iniciar sesion</a></li>
-		<li class="nav-item"><a class="nav-link reg"   class="Reg" href="/TiendaVirtual/view/registro.php">Registrarse</a></li>
+		<li class="nav-item"><a class="nav-link reg"  href="/TiendaVirtual/view/login.php">Log in</a></li>
 	</ul>
 	</div>
 	</div>
